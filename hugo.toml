@@ -1,0 +1,22 @@
+baseURL = "https://km-scale.github.io/"
+
+# This is a "one page"-website, so we do not need these kinds of pages...
+disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+
+defaultContentLanguage = "en"
+
+# The name of this wonderful theme ;-).
+theme = "hugo-scroll"
+
+# The browser tab name
+title = "km-scale"
+
+[params]
+    title = "km-scale"
+    description = "km-scale"
+    copyright = "© km-scale"
+    hidedesignbyline = false
+    invertSectionColors = false
+
+    [params.meta]
+        keywords = "km-scale"
